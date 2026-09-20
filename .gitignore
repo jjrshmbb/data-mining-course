@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ---- 数据文件（大文件不入库，保留目录占位）----
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.db
+*.sqlite
+
+# ---- 输出与报告 ----
+reports/*.csv
+reports/*.html
+reports/figures/*.png
+reports/figures/*.pdf
+!reports/figures/.gitkeep
+
+# ---- 编辑器与系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 密钥与本地配置（千万不要提交）----
+.env
+*.local
+credentials.*

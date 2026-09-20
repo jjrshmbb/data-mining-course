@@ -1,0 +1,23 @@
+# 数据挖掘技术 - 课程小组作业依赖
+# 安装: pip install -r requirements.txt
+
+# 数据处理
+numpy>=1.26
+pandas>=2.1
+openpyxl>=3.1          # 读取 Excel
+
+# 可视化
+matplotlib>=3.8
+seaborn>=0.13
+
+# 机器学习
+scikit-learn>=1.4
+scipy>=1.11
+
+# 交互式分析
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.29
+
+# 工具
+tqdm>=4.66

@@ -1,0 +1,3 @@
+# 原始数据放在本目录（data/raw/）
+# 数据文件已被 .gitignore 排除, 不会提交到 GitHub。
+# 请把获取方式写进 README.md 的"数据集说明"。
