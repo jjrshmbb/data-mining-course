@@ -1,0 +1,2 @@
+﻿seed,missing_rate,imputer,detector,AP,ROC_AUC,preprocess_seconds,fit_seconds,score_seconds,total_seconds,train_missing_actual,test_missing_actual,mask_sha256,train_n,test_n,test_positive_fraction,warnings
+42,0.0,median,iforest,0.7922937979304008,0.8078512396694215,0.005181100000299921,0.13900589999957447,0.005667899999934889,0.14985489999980928,0.0,0.0,5a1ae2812d0a15fd53546c948b54c3666489d91d3bf48b5e78e37532fe66ef05,320,132,0.5,

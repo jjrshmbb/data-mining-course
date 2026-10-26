@@ -1,0 +1,2 @@
+﻿imputer,detector,missing_rate,n,AP_mean,AP_std,ROC_AUC_mean,ROC_AUC_std,total_seconds_mean
+median,iforest,0.0,1,0.7922937979304008,,0.8078512396694215,,0.1668050000025687

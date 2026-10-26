@@ -51,3 +51,16 @@ desktop.ini
 .env
 *.local
 credentials.*
+
+# 本轮研究生成的本机缓存
+.cache/
+
+# 小型可复查记录可以入版本控制；原始数据仍按原规则留在本地
+!data/source_manifest.json
+!docs/environment_bootstrap.json
+!docs/sources/*.json
+!reports/runs/**/*.csv
+!reports/runs/**/*.json
+!reports/runs/**/*.jsonl
+!reports/presentation/*.csv
+!reports/presentation/deck_data.json

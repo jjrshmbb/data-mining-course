@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "274 features exclude final label; no exact label-copy feature",
+    "normal-only training; split disjoint and exhaustive",
+    "seed reproducibility and nested label-independent masks",
+    "AP and ROC-AUC use larger-is-more-anomalous direction",
+    "changing one test row cannot change other test-row scores in all 4 workflows",
+    "all methods share identical masks; no-missing imputer results agree"
+  ],
+  "run": "C:\\Users\\HP\\Documents\\Codex\\2026-10-25\\new-chat\\outputs\\DataMiningResearch\\reports\\runs\\20261025_202939_baseline_07f5d4",
+  "seed": 42
+}

@@ -1,0 +1,17 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT = {
+    'dataset': 'Arrhythmia (ImAD bundled ODDS version)',
+    'seeds': [42, 2026, 3407],
+    'missing_rates': [0.0, 0.1, 0.3,0.5,0.7],
+    'imputers': ['median', 'knn'],
+    'detectors': ['iforest', 'lof'],
+    'protocol': 'normal_only; ImAD code split=1 count rule; new saved indices',
+    'missingness': 'MCAR Bernoulli; train and test both masked; nested rates',
+    'iforest_n_estimators': 200,
+    'knn_neighbors': 5,
+    'lof_neighbors': 20,
+    'n_jobs': 1,
+    'warmup': True,
+}

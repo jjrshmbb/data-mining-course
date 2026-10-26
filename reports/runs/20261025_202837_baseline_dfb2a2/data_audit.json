@@ -1,0 +1,21 @@
+{
+  "dataset": "Arrhythmia",
+  "source_repository_commit": "a4963fc976fbb10759717dd6afea51320a5d2639",
+  "raw_shape": "452 x 275 (last column is label)",
+  "n_samples": 452,
+  "n_features": 274,
+  "n_normal": 386,
+  "n_anomaly": 66,
+  "label_meaning": "0 normal / 1 outlier, inherited ODDS binary task",
+  "nan_count": 0,
+  "inf_count": 0,
+  "constant_features_full_data_audit_only": 17,
+  "duplicate_rows_full_data_audit_only": 0,
+  "train_rows": 320,
+  "test_rows": 132,
+  "test_anomalies": 66,
+  "test_prevalence_random_AP_reference": 0.5,
+  "split": "official code count rule, newly seeded indices; no fixed official indices",
+  "sha256": "0ccb314f6a395c5e38d06694ae7fad9f4b7d10ad162cb03d47eb047a26ff1810",
+  "source_url": "https://api.github.com/repos/jicongfan/ImAD-Anomaly-Detection-With-Missing-Data/contents/data/Arrhythmia/complete_data.npy?ref=a4963fc976fbb10759717dd6afea51320a5d2639"
+}

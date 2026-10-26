@@ -1,0 +1,3 @@
+2026-10-25 21:47:05,943 INFO Warmup complete, scores discarded and excluded from result table/timing.
+2026-10-25 21:47:06,095 INFO {'seed': 42, 'missing_rate': 0.0, 'imputer': 'median', 'detector': 'iforest'} AP=0.7923 ROC_AUC=0.8079 seconds=0.143
+2026-10-25 21:47:08,684 INFO Finished: C:\Users\HP\WorkBuddy\2026-10-25-21-18-41\_project\DataMiningResearch\reports\runs\20261025_214705_smoke_32a594

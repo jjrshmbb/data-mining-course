@@ -1,0 +1,23 @@
+{
+  "python": "3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]",
+  "executable": "C:\\Users\\HP\\Documents\\Codex\\2026-10-25\\new-chat\\outputs\\DataMiningResearch\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.22000-SP0",
+  "timestamp_Asia_Shanghai": "2026-10-25T20:27:33.786458+08:00",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.16.2",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.7",
+    "requests": "2.32.5"
+  },
+  "base_commit": "35c76db810ec5d382c64890ea84ece779fa66cce",
+  "branch": "research/missingness-baseline-20261025",
+  "source_sha256": {
+    "research\\__init__.py": "5b732708bdeb93bf204746403d2ed3bbad3326a0f9806e070d4144b551bb2a53",
+    "research\\config.py": "f4e006def9a67b1bd212ffb679436af58d111c5d6472dcdb072a08ebd16d1383",
+    "research\\data.py": "37a01aa861ed68f6992cd135e21a891f94436f0ba109b0098dc252179ca9ac92",
+    "research\\experiment.py": "56fcd46294ccf27d282775bf29166cf3af13cdce175742518d7e36c1dc8dae83",
+    "research\\plotting.py": "77167a4b0881d3565932a6a30ca4efbd448a17bb741dc44ce8c50ed4a4beedc7"
+  }
+}

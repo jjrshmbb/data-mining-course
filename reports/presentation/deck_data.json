@@ -1,0 +1,165 @@
+{
+  "run": "C:\\Users\\HP\\Documents\\Codex\\2026-10-25\\new-chat\\outputs\\DataMiningResearch\\reports\\runs\\20261025_202939_baseline_07f5d4",
+  "summary": [
+    {
+      "imputer": "knn",
+      "detector": "iforest",
+      "missing_rate": 0.0,
+      "n": 3,
+      "AP_mean": 0.7673162346788631,
+      "AP_std": 0.0301786737614454,
+      "ROC_AUC_mean": 0.7728037955310683,
+      "ROC_AUC_std": 0.030769304619026,
+      "total_seconds_mean": 0.1392364999998487
+    },
+    {
+      "imputer": "knn",
+      "detector": "iforest",
+      "missing_rate": 0.1,
+      "n": 3,
+      "AP_mean": 0.7770870314744954,
+      "AP_std": 0.026119876645265,
+      "ROC_AUC_mean": 0.778236914600551,
+      "ROC_AUC_std": 0.0356895826809189,
+      "total_seconds_mean": 0.2862133666670464
+    },
+    {
+      "imputer": "knn",
+      "detector": "iforest",
+      "missing_rate": 0.3,
+      "n": 3,
+      "AP_mean": 0.7779537452364718,
+      "AP_std": 0.0377799481843303,
+      "ROC_AUC_mean": 0.7734159779614326,
+      "ROC_AUC_std": 0.0414445696837346,
+      "total_seconds_mean": 0.3469715666669799
+    },
+    {
+      "imputer": "knn",
+      "detector": "lof",
+      "missing_rate": 0.0,
+      "n": 3,
+      "AP_mean": 0.7146739112993957,
+      "AP_std": 0.0036073013870183,
+      "ROC_AUC_mean": 0.7382154882154882,
+      "ROC_AUC_std": 0.0125537053168826,
+      "total_seconds_mean": 0.0072596999998495
+    },
+    {
+      "imputer": "knn",
+      "detector": "lof",
+      "missing_rate": 0.1,
+      "n": 3,
+      "AP_mean": 0.7351017046215907,
+      "AP_std": 0.0214280368421967,
+      "ROC_AUC_mean": 0.7473217018671564,
+      "ROC_AUC_std": 0.0036030784716845,
+      "total_seconds_mean": 0.1444772666670057
+    },
+    {
+      "imputer": "knn",
+      "detector": "lof",
+      "missing_rate": 0.3,
+      "n": 3,
+      "AP_mean": 0.7456404945480224,
+      "AP_std": 0.0072379371347758,
+      "ROC_AUC_mean": 0.7538261401897767,
+      "ROC_AUC_std": 0.0137441005727558,
+      "total_seconds_mean": 0.2087156666669519
+    },
+    {
+      "imputer": "median",
+      "detector": "iforest",
+      "missing_rate": 0.0,
+      "n": 3,
+      "AP_mean": 0.7673162346788631,
+      "AP_std": 0.0301786737614454,
+      "ROC_AUC_mean": 0.7728037955310683,
+      "ROC_AUC_std": 0.030769304619026,
+      "total_seconds_mean": 0.1433021999998042
+    },
+    {
+      "imputer": "median",
+      "detector": "iforest",
+      "missing_rate": 0.1,
+      "n": 3,
+      "AP_mean": 0.7669601202048012,
+      "AP_std": 0.020972930633842,
+      "ROC_AUC_mean": 0.7717324762779308,
+      "ROC_AUC_std": 0.0299903987985076,
+      "total_seconds_mean": 0.1504811333334146
+    },
+    {
+      "imputer": "median",
+      "detector": "iforest",
+      "missing_rate": 0.3,
+      "n": 3,
+      "AP_mean": 0.7728623149893322,
+      "AP_std": 0.034149968837235,
+      "ROC_AUC_mean": 0.7663758800122437,
+      "ROC_AUC_std": 0.046491051427707,
+      "total_seconds_mean": 0.1433422000003096
+    },
+    {
+      "imputer": "median",
+      "detector": "lof",
+      "missing_rate": 0.0,
+      "n": 3,
+      "AP_mean": 0.7146739112993957,
+      "AP_std": 0.0036073013870183,
+      "ROC_AUC_mean": 0.7382154882154882,
+      "ROC_AUC_std": 0.0125537053168826,
+      "total_seconds_mean": 0.008831566666231
+    },
+    {
+      "imputer": "median",
+      "detector": "lof",
+      "missing_rate": 0.1,
+      "n": 3,
+      "AP_mean": 0.7354717456898747,
+      "AP_std": 0.0216513228450032,
+      "ROC_AUC_mean": 0.7483164983164983,
+      "ROC_AUC_std": 0.0031336999126788,
+      "total_seconds_mean": 0.0123387333333084
+    },
+    {
+      "imputer": "median",
+      "detector": "lof",
+      "missing_rate": 0.3,
+      "n": 3,
+      "AP_mean": 0.7450158268126955,
+      "AP_std": 0.0046751537963533,
+      "ROC_AUC_mean": 0.7555861646770737,
+      "ROC_AUC_std": 0.0147001481215467,
+      "total_seconds_mean": 0.0121854000005138
+    }
+  ],
+  "audit": {
+    "dataset": "Arrhythmia",
+    "source_repository_commit": "a4963fc976fbb10759717dd6afea51320a5d2639",
+    "raw_shape": "452 x 275 (last column is label)",
+    "n_samples": 452,
+    "n_features": 274,
+    "n_normal": 386,
+    "n_anomaly": 66,
+    "label_meaning": "0 normal / 1 outlier, inherited ODDS binary task",
+    "nan_count": 0,
+    "inf_count": 0,
+    "constant_features_full_data_audit_only": 17,
+    "duplicate_rows_full_data_audit_only": 0,
+    "train_rows": 320,
+    "test_rows": 132,
+    "test_anomalies": 66,
+    "test_prevalence_random_AP_reference": 0.5,
+    "split": "official code count rule, newly seeded indices; no fixed official indices",
+    "sha256": "0ccb314f6a395c5e38d06694ae7fad9f4b7d10ad162cb03d47eb047a26ff1810",
+    "source_url": "https://api.github.com/repos/jicongfan/ImAD-Anomaly-Detection-With-Missing-Data/contents/data/Arrhythmia/complete_data.npy?ref=a4963fc976fbb10759717dd6afea51320a5d2639"
+  },
+  "status": {
+    "status": "complete",
+    "completed_workflows": 36,
+    "failed_workflows": 0
+  },
+  "n_seeds": 3,
+  "n_workflows": 36
+}
